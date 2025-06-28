@@ -1,0 +1,834 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar1 {
+    padding-top: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 1000;
+}
+
+
+
+.navbar1__s1 img {
+    width: 190px;
+}
+
+.navbar1__s2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar1__s2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar1__s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar1__s3__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar1__s3__link:hover {
+    background-color: gainsboro;
+}
+
+.navbar1__s3 button {
+    padding: 12px;
+    border-radius: 25px;
+    width: 80px;
+    background-color: black;
+    color: white;
+}
+
+.navbar1__s3 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar Two */
+.navbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.navbar2 h1 {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.navbar2__s2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar2__s2 p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar2__s2 i {
+    color: white;
+}
+
+.navbar2__s3 {
+    width: 65%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.navbar2__s3 i {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.navbar2__s3 input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.navbar2__s3 input:focus {
+    outline: none;
+}
+
+.navbar2__s3:focus-within {
+    border-color: black;
+}
+
+.navbar2__s3 p {
+    width: 12%;
+    margin-right: 6px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #32b37b;
+    font-weight: bold;
+    border: solid grey 1px;
+    cursor: pointer;
+}
+
+.navbar2__s3 p:hover {
+    background-color: #60d6a3;
+}
+
+/* add */
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.add__container {
+    width: 80%;
+    height: auto;
+    background-color: #f55252;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.add__container__s1 {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add__container__s1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.vertical-line {
+    width: 1px;
+    background-color: #000;
+    height: auto;
+    align-self: stretch;
+}
+
+.add__container__s2 {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.add__container__s2 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.add__container__s2 p {
+    font-size: 16px;
+    color: #111;
+}
+
+.add__container__s2 button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* recommendation part one */
+.recommendation-01 {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+/* recomendation by interest */
+
+.recommendation__byinterest {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recommendation__byinterest__titile {
+    font-size: 22px;
+}
+
+.recommendation__byinterest__desc {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recommendation__byinterest__card__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.recommendation__byinterest__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.recommendation__byinterest__card {
+    position: relative;
+}
+
+.r_img_tag {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+}
+
+/* recommendation-02__bynearplace */
+
+.recommendation__bynearplace {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recommendation__bynearplace__titile {
+    font-size: 22px;
+}
+
+.recommendation__bynearplace__desc {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recommendation__bynearplace__card__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.recommendation__bynearplace__card {
+    width: 30%;
+    height: 30%;
+
+}
+
+.recommendation__bynearplace__card h5 {
+    font-size: 15px;
+}
+
+.recommendation__bynearplace__card__rating {
+    font-size: 12px;
+}
+
+.recommendation__bynearplace__card__price {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.recommendation__bynearplace__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* suggestion */
+
+.suggestion {
+    background-color: #e7e6e0;
+}
+
+.suggestion__container {
+    padding-left: 110px;
+    padding-right: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.suggestion__title {
+    margin-left: 110px;
+    padding-top: 25px;
+    font-size: 21px;
+}
+
+.suggestion__card {
+    width: 32%;
+    aspect-ratio: 6 / 4;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.suggestion__card img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.suggestion__card a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.suggestion__card a:hover {
+    text-decoration: underline;
+}
+
+/* recommendation__bythings__to__do */
+
+.recommendation-02 {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.recommendation__bythings__to__do {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recommendation__bythings__to__do__titile {
+    font-size: 22px;
+}
+
+.recommendation__bythings__to__do__desc {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recommendation__bythings__to__do__card__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.recommendation__bythings__to__do__card {
+    width: 30%;
+    height: 30%;
+
+}
+
+.recommendation__bythings__to__do__card h5 {
+    font-size: 15px;
+}
+
+.recommendation__bythings__to__do__card__rating {
+    font-size: 12px;
+}
+
+.recommendation__bythings__to__do__card__price {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.recommendation__bythings__to__do__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* recommendatin by Iconeic places */
+
+.recommendation__byIconic__places {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recommendation__byIconic__places__titile {
+    font-size: 22px;
+}
+
+.recommendation__byIconic__places__desc {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recommendation__byIconic__places__card__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.recommendation__byIconic__places__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.recommendation__byIconic__places__card {
+    position: relative;
+}
+
+.r_img_tag {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+}
+
+/* Add Two */
+
+.add-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.add-two__container {
+    width: 80%;
+    height: auto;
+    background-color: #e7e6e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.add-two__container__s1 {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-two__container__s1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.add-two__container__s2 {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.add-two__small-logo img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.add-two__brand {
+    color: #000;
+}
+
+.add-two__container__s2 h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.add-two__container__s2 p {
+    font-size: 16px;
+    color: #111;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-two__container__s2 button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* Award-Banner */
+
+.award-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe0c2;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.award-banner__text {
+    width: 50%;
+    color: #000;
+    margin-left: 110px;
+}
+
+.award-banner__logo {
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.award-banner__text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.award-banner__text p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.award-banner__image {
+    width: 50%;
+    position: relative;
+}
+
+.award-banner__image img {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    object-fit: cover;
+}
+
+.award-banner button {
+    width: 40%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+/* collections */
+
+.collections {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.recommendation__bycollections {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recommendation__bycollections__titile {
+    font-size: 22px;
+}
+
+.recommendation__bycollections__desc {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recommendation__bycollections__card__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.recommendation__bycollections__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.recommendation__bycollections__card {
+    position: relative;
+    width: 30%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+
+}
+
+.rbc_img_tag {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+}
+
+/* footer */
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 50px 110px;
+  font-size: 14px;
+}
+
+.footer__links__s1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer__links__s1 h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer__links__s1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links__s1 li {
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+/* footer bottom */
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.footer__legal {
+  width: 70%;
+}
+
+.footer__legal img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer__legal ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer__selects-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__selects {
+  display: flex;
+}
+
+.footer__selects select {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.footer__social-icons i {
+  font-size: 18px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.small-print {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+
+/* ==================== Responsive Media Queries ==================== */
+
+/* Exta Samll Devices (Phones < 480px) */
+
+@media screen and (max-width: 480px){
+    body{
+        font-size: 10px;
+    }
+    .navbar1__s2{
+        display: none;
+    }
+
+
+}
+
+/* Small Devices (Phones 481px - 767px) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+
+  .navbar1 {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navbar1__s1 img {
+    width: 150px;
+  }
+
+  .navbar1__s2 {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navbar1__s3 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar1__s3__link {
+    width: auto;
+  }
+
+  .navbar2 {
+    padding: 20px;
+  }
+
+  .navbar2 h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .navbar2__s2 {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .navbar2__s3 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbar2__s3 input {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navbar2__s3 p {
+    width: 100%;
+  }
+}
