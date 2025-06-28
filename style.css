@@ -273,7 +273,13 @@ body {
     height: 100%;
     border-radius: 10px;
 }
-
+.recommendation__byinterest__card img {
+  transition: filter 0.3s ease;
+} 
+.recommendation__byinterest__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .recommendation__byinterest__card {
     position: relative;
     flex-basis: 23%;
@@ -285,6 +291,7 @@ body {
     bottom: 10px;
     left: 20px;
     color: white;
+    z-index: 2;
 }
 
 /* recommendation-02__bynearplace */
@@ -337,6 +344,13 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+.recommendation__bynearplace__card img {
+  transition: filter 0.3s ease;
+} 
+.recommendation__bynearplace__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 /* suggestion */
 
@@ -378,6 +392,13 @@ body {
     object-fit: cover;
     display: block;
     padding-bottom: 15px;
+}
+.suggestion__card img {
+  transition: filter 0.3s ease;
+} 
+.suggestion__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .suggestion__card a {
@@ -448,6 +469,13 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+.recommendation__bythings__to__do__card img {
+  transition: filter 0.3s ease;
+} 
+.recommendation__bythings__to__do__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 
 /* recommendatin by Iconeic places */
@@ -479,6 +507,13 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+.recommendation__byIconic__places__card img {
+  transition: filter 0.3s ease;
+} 
+.recommendation__byIconic__places__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 .recommendation__byIconic__places__card {
     position: relative;
@@ -491,6 +526,7 @@ body {
     bottom: 10px;
     left: 20px;
     color: white;
+    z-index: 2;
 }
 
 /* Add Two */
@@ -649,7 +685,9 @@ body {
 }
 
 .recommendation__bycollections__titile {
-    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
 }
 
 .recommendation__bycollections__desc {
@@ -670,6 +708,13 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+.recommendation__bycollections__card img {
+  transition: filter 0.3s ease;
+} 
+.recommendation__bycollections__card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 .recommendation__bycollections__card {
     position: relative;
@@ -685,6 +730,7 @@ body {
     bottom: 10px;
     left: 20px;
     color: white;
+    z-index: 2;
 }
 
 /* footer */
@@ -1079,11 +1125,7 @@ body {
     .recommendation__bycollections__titile {
         font-size: 20px;
     }
-
-    .recommendation__bycollections__desc {
-        font-size: 14px;
-    }
-
+    
     .recommendation__bycollections__card {
         flex-grow: 1;
         flex-basis: 38%;
@@ -1196,10 +1238,5 @@ body {
         padding-left: 30px;
         padding-right: 30px;
     }
-
-
-
-
-
 
 }
