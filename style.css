@@ -577,18 +577,19 @@ body {
 /* Award-Banner */
 
 .award-banner {
+    background-color: #ffe0c2;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.award-banner__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffe0c2;
-    border-radius: 0 0 30px 30px;
-    overflow: hidden;
-    gap: 40px;
-    margin-top: 80px;
+    flex-wrap: wrap;
 }
 
 .award-banner__text {
-    width: 50%;
+    width: 40%;
     color: #000;
     margin-left: 110px;
 }
@@ -613,7 +614,7 @@ body {
 }
 
 .award-banner__image {
-    width: 50%;
+    width: 40%;
     position: relative;
 }
 
@@ -940,15 +941,18 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .suggestion__card {
-       flex-grow: 1;
-        flex-basis:10% ;
+        flex-grow: 1;
+        flex-basis: 10%;
     }
-    .suggestion__card a{
-       font-size: 10px;
-       text-align: start;
+
+    .suggestion__card a {
+        font-size: 10px;
+        text-align: start;
     }
-    .suggestion__title{
+
+    .suggestion__title {
         font-size: 18px;
     }
 
@@ -1030,20 +1034,24 @@ body {
         max-width: 500px;
         width: 100%;
     }
+
     .award-banner__logo {
         width: 80px;
         height: auto;
         margin-bottom: 10px;
     }
+
     .award-banner__text h1 {
         font-size: 30px;
         line-height: 1.4;
-        
+
     }
+
     .award-banner__text p {
         font-size: 14px;
         line-height: 1.6;
     }
+
     .award-banner__text button {
         padding: 10px 20px;
         font-size: 14px;
@@ -1053,24 +1061,30 @@ body {
         border: none;
         cursor: pointer;
     }
-    .award-banner__image{
+
+    .award-banner__image {
         width: 100%;
     }
-    .award-banner__image img{
+
+    .award-banner__image img {
         width: 100%;
     }
-   /* collections */
-    .collections{
+
+    /* collections */
+    .collections {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .recommendation__bycollections__titile{
+
+    .recommendation__bycollections__titile {
         font-size: 20px;
     }
-    .recommendation__bycollections__desc{
+
+    .recommendation__bycollections__desc {
         font-size: 14px;
     }
-    .recommendation__bycollections__card{
+
+    .recommendation__bycollections__card {
         flex-grow: 1;
         flex-basis: 38%;
         align-items: center;
@@ -1078,9 +1092,114 @@ body {
     }
 
     /* footer */
-    .footer{
+    .footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+/* Medium Devices (Tablets 768px - 1024px) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* navbar */
+    .navbar1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navbar2 {
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .navbar2__s1,
+    .navbar2__s2,
+    .navbar2__s3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* add */
+    .add {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .add__container {
+        width: 100%;
+    }
+
+    /* Recommentions part one */
+
+    .recommendation-01 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /*   <!--Recommendation__byinterest--> */
+    .r_img_tag{
+        font-size: 20px;
+    }
+    /*  <!--Recommendation__bynearplace--> */
+    .recommendation__bynearplace__card h5{
+        font-size: 13px;
+    }
+    .recommendation__bynearplace__card p{
+        font-size: 10px;
+    }
+    /*  <!--suggestion--> */
+    .suggestion__container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .suggestion__card a{
+        font-size: 14px;
+    }
+    .suggestion__title{
+        margin-left: 30px;
+    }
+    /*  <!--Reconmmentions Part Two--> */
+
+    .recommendation-02{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .recommendation__bythings__to__do__card h5{
+        font-size: 13px;
+    }
+    .recommendation__bythings__to__do__card p{
+        font-size: 10px;
+    }
+
+    /* <!--recommendation__byIconic__places--> */
+    .recommendation__byIconic__places__card h2{
+        font-size: 14px;
+    }
+
+    /* <!--Award-Banner-->  */
+    .award-banner__text h1{
+        font-size: 30px;
+    }
+
+    /*<!--collections-->  */
+    .collections{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .recommendation__bycollections__card h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /*  <!--footer--> */
+    .footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+
+
+
 
 }
