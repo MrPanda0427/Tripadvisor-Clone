@@ -1164,6 +1164,9 @@ body {
         width: 100%;
         text-align: center;
     }
+    .navbar1__s3__user_i{
+        display: none;
+    }
 
     /* add */
     .add {
