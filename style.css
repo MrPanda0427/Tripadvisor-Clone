@@ -835,10 +835,275 @@ body {
         font-size: 10px;
     }
 
+    .navbar1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar1__s0 {
+        display: block;
+    }
+
+    .navbar1__s1 img {
+        width: 140px;
+    }
+
+    .navbar1__s2 {
+        display: none;
+    }
+
     .navbar1__s3__link {
         display: none;
     }
+
+    .navbar1__s3 button {
+        display: none;
+    }
+
+    .navbar1__s3__user_i {
+        display: block;
+    }
+
+    .navbar2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar2 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .navbar2__s2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .navbar2__s3 {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar2__s3 p {
+        width: 25%;
+    }
+
+    .add {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .add__container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .add__container__s1 {
+        width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .add__container__s2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .recommendation-01 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .recommendation__byinterest__card__container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .recommendation__byinterest__card {
+        flex-grow: 0;
+        flex-basis: 45%;
+        align-items: center;
+    }
+
+    .recommendation__bynearplace__card__container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .recommendation__bynearplace__titile {
+        font-size: 18px;
+    }
+
+    .recommendation__bynearplace__card {
+        flex-grow: 1;
+        flex-basis: 48%;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .suggestion__container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .suggestion__card {
+        flex-grow: 1;
+        flex-basis: 45%;
+    }
+
+    .suggestion__card a {
+        font-size: 10px;
+        text-align: start;
+    }
+
+    .suggestion__title {
+        font-size: 16px;
+    }
+
+    .recommendation-02 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .recommendation__bythings__to__do__titile {
+        font-size: 18px;
+    }
+
+    .recommendation__bythings__to__do__desc {
+        font-size: 13px;
+    }
+
+    .recommendation__bythings__to__do__card {
+        flex-grow: 1;
+        flex-basis: 48%;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .recommendation__byIconic__places__titile {
+        font-size: 18px;
+    }
+
+    .recommendation__byIconic__places__desc {
+        font-size: 13px;
+    }
+
+    .recommendation__byIconic__places__card {
+        flex-grow: 1;
+        flex-basis: 48%;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .add-two {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .add-two__container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-two__container__s1 {
+        width: 100%;
+    }
+
+    .add-two__container__s2 {
+        width: 100%;
+    }
+
+    .award-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .award-banner__text {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .award-banner__logo {
+        width: 70px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .award-banner__text h1 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .award-banner__text p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .award-banner__text button {
+        padding: 10px 20px;
+        font-size: 13px;
+        border-radius: 25px;
+        background-color: #32b37b;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .award-banner__image {
+        width: 100%;
+    }
+
+    .award-banner__image img {
+        width: 100%;
+    }
+
+    .collections {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .recommendation__bycollections__titile {
+        font-size: 18px;
+    }
+
+    .recommendation__bycollections__card {
+        flex-grow: 1;
+        flex-basis: 48%;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
+
 
 /* Small Devices (Phones 481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
