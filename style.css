@@ -82,6 +82,10 @@ body {
     text-decoration: none;
     color: black;
 }
+.navbar1__s3__user_i{
+    display: none;
+}
+
 
 /* Navbar Two */
 .navbar2 {
@@ -845,8 +849,11 @@ body {
     .navbar1 {
         padding-left: 30px;
         padding-right: 30px;
+        display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
+        
     }
 
     .navbar1__s0 {
@@ -865,16 +872,14 @@ body {
         display: none;
     }
 
-    .navbar1__s3 {
-        width: 30%;
-        justify-content: space-between;
-    }
+  
 
     .navbar1__s3 button {
-        width: 70%;
-        height: auto;
-        border-radius: 50%;
-        text-align: center;
+        display: none;
+    }
+    .navbar1__s3__user_i{
+        display: block;
+
     }
 
     .navbar2 {
@@ -901,18 +906,16 @@ body {
 
     .navbar2__s3 {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         height: auto;
         padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-
-    .navbar2__s3 input {
-        width: 100%;
-        margin: 10px;
-    }
-
     .navbar2__s3 p {
-        width: 70%;
+        width: 20%;
     }
 
     .add {
@@ -1140,9 +1143,9 @@ body {
     }
 }
 
-/* Medium Devices (Tablets 768px - 1024px) */
+/* Medium Devices (Tablets 768px - 1340px) */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1340px) {
 
     /* navbar */
     .navbar1 {
@@ -1153,7 +1156,6 @@ body {
     .navbar2 {
         padding-left: 30px;
         padding-right: 30px;
-
     }
 
     .navbar2__s1,
@@ -1240,3 +1242,5 @@ body {
     }
 
 }
+
+/* Large Devices (Laptops 1025px - ) */
